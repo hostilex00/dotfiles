@@ -1,0 +1,22 @@
+format = """
+$directory $git_branch$git_status $python
+$character
+"""
+
+[directory]
+format = '[$path]($style)'
+style = 'bold purple'
+
+[git_branch]
+format = '[$branch]($style)'
+
+[git_status]
+format = '([ $all_status]($style))'
+
+[python]
+format = '[($virtualenv )$version]($style)'
+style = 'bold yellow'
+
+[character]
+success_symbol = "[➜](bold bright-black) "
+error_symbol = "[✗](bold red) "
