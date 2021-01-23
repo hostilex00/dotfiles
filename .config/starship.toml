@@ -40,7 +40,7 @@ symbol = ''
 style = 'bold cyan'
 
 [status]
-format = '[─\[](bold bright-black)[$status]($style)[\]](bold bright-black)'
+format = '[───\[](bold bright-black)[$status]($style)[\]](bold bright-black)'
 style = 'bold bright-red'
 disabled = false
 

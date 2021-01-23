@@ -191,7 +191,9 @@ smart_borders on
 # ---
 # Startup
 # ---
-
-exec polybar nord -c ~/.config/polybar/config.ini
+exec polybar nord-top-left -c ~/.config/polybar/config.ini
+exec polybar nord-top-right -c ~/.config/polybar/config.ini
+exec polybar nord-bottom-left -c ~/.config/polybar/config.ini
+exec polybar nord-bottom-right -c ~/.config/polybar/config.ini
 exec feh --bg-fill ~/Pictures/amnesia.png
 exec picom
