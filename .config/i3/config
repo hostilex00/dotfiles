@@ -186,14 +186,14 @@ hide_edge_borders none
 
 gaps inner 30
 gaps outer 15
+gaps bottom 35
+gaps top 35
 
 smart_borders on
 # ---
 # Startup
 # ---
-exec polybar nord-top-left -c ~/.config/polybar/config.ini
-exec polybar nord-top-right -c ~/.config/polybar/config.ini
-exec polybar nord-bottom-left -c ~/.config/polybar/config.ini
-exec polybar nord-bottom-right -c ~/.config/polybar/config.ini
+exec polybar nord-top -c ~/.config/polybar/config.ini
+exec polybar nord-bottom -c ~/.config/polybar/config.ini
 exec feh --bg-fill ~/Pictures/amnesia.png
 exec picom
